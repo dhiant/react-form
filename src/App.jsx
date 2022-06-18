@@ -61,6 +61,7 @@ function App() {
   return (
     <div className="App">
       <form action="">
+        <h1>Register</h1>
         {inputs.map((input) => (
           <FormInput
             key={input.id}
