@@ -8,12 +8,14 @@
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
-  background-position: left center;
+  /* background-color: #f0f2f5; */
 }
 .App h1 {
   text-align: center;
+  /* color: #1877f2; */
   color: rgb(219, 13, 13);
   font-size: 30px;
+  margin: 10px 0 5px 0;
 }
 .App form {
   background: #fff;
@@ -22,7 +24,9 @@
 }
 form button {
   cursor: pointer;
+  /* background-color: #1877f2; */
   background-color: rgb(219, 13, 13);
+
   width: 100%;
   height: 50px;
   padding: 10px;
@@ -38,5 +42,8 @@ form button {
   .App {
     align-items: start;
     background: none;
+  }
+  .App form {
+    padding: 0;
   }
 }
